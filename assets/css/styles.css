@@ -1,0 +1,350 @@
+body {
+  background-color: #1c1c1c;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/june-dalton-0YCiOnx3P9Y-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+
+.navbar-light .navbar-brand {
+  background-image: url("../../assets/img/Untitled%20design.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size: 90%;
+  background-position: center;
+}
+
+#navcol-1 {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2vh;
+}
+
+#about {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+  scroll-behavior: smooth;
+}
+
+#about:hover {
+  background-size: 100% 2px;
+  scroll-behavior: smooth;
+}
+
+#Projects {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+#Projects:hover {
+  background-size: 100% 2px;
+}
+
+#Resume {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+#Contact {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+  color: white;
+}
+
+#Resume:hover {
+  background-size: 100% 2px;
+}
+
+#Contact:hover {
+  background-size: 100% 2px;
+}
+
+#Kishore-Hariharan {
+  text-align: center;
+  font-size: 90px;
+  margin-top: 20vh;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  /*margin: 0 auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+}
+
+#Subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: Raleway, sans-serif;
+  margin-top: 50px;
+  font-weight: normal;
+  font-style: normal;
+  filter: invert(0%);
+  letter-spacing: 10px;
+}
+
+#blurb {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  margin-top: 3vh;
+}
+
+#face {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-image: url("../../assets/img/rodion-kutsaev-049M_crau5k-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#row {
+  /*margin-top: 5vh;*/
+  height: 800px;
+}
+
+#profile {
+  font-family: Raleway, sans-serif;
+}
+
+#sub {
+  font-family: Raleway, sans-serif;
+  color: rgb(108,117,125);
+  font-size: 16px;
+}
+
+#text {
+  font-family: Raleway, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#leaves {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+#card-blurb {
+  border-radius: 0px;
+}
+
+#Initiative {
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+  font-size: 35px;
+  font-family: Raleway, sans-serif;
+}
+
+#projects {
+  height: 100%;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+#quote {
+  margin-top: 10em;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+#skills {
+  margin-top: 20px;
+  height: 60%;
+  border-radius: 0px;
+}
+
+#skills-title {
+  font-family: Raleway, sans-serif;
+}
+
+#list {
+  font-size: 16px;
+  font-family: Raleway, sans-serif;
+  color: rgb(33,37,41);
+  font-weight: normal;
+  margin-top: 15px;
+  list-style-type: square;
+}
+
+#Initiatives {
+  text-align: center;
+  margin-top: 200px;
+  color: rgb(255,255,255);
+  font-family: Raleway, sans-serif;
+}
+
+#line {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2px;
+  background-image: url("../../assets/img/f50524ee5f161f437400aaf215c9e12f.jpg");
+  height: 100px;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  margin-top: 200px;
+}
+
+#project-image {
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+#Kishore-Hariharan {
+  overflow: hidden;
+  border-right: .1em solid white;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+#list-first {
+  margin-top: 50px;
+}
+
+#resume {
+  background: white;
+  /*width: 500px;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+  border-radius: 25px;
+  height: 300px;
+}
+
+#resume-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+#download {
+  height: 100px;
+}
+
+#viewresume {
+  background-color: #00B2EE;
+  font-family: Montserrat, sans-serif;
+  font-size: 27px;
+  color: rgb(0,0,0);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#embed-responsive {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 1100px;
+}
+
+#contact-title {
+  background-color: #ffffff;
+  font-size: 32px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+}
+
+#contact-paragraph {
+  background-color: white;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#contact-div {
+  margin-top: 100px;
+}
+
+#footer {
+  margin-top: 50px;
+  height: 200px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+}
+
+#footer-container {
+  margin-top: 10px;
+}
+
